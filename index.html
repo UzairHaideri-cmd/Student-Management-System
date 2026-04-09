@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile | Uzair Haideri</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #ffffff;
+            padding: 60px 0;
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .profile-card {
+            background: #fff;
+            padding: 40px;
+            margin-top: -50px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        .logo-placeholder {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            background: #2a5298;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            color: white;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        .profile-card h1 {
+            margin: 20px 0 10px 0;
+            color: #1e3c72;
+            font-size: 2.2em;
+        }
+
+        /* Naya Styling Contact Info ke liye */
+        .contact-bar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .contact-item {
+            font-size: 0.95em;
+            color: #4b4f56;
+        }
+
+        .contact-item strong {
+            color: #1e3c72;
+        }
+
+        .section-box {
+            background: #fff;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .section-title {
+            color: #1e3c72;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+            display: inline-block;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .project-item {
+            background: #fff;
+            padding: 25px;
+            border-radius: 15px;
+            border-top: 5px solid #3498db;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+
+        .project-item:hover { transform: translateY(-5px); }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #1e3c72;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Uzair Haideri Portfolio</h1>
+    </div>
+</header>
+
+<div class="container">
+    <div class="profile-card">
+        <div class="logo-placeholder"><span>UH</span></div>
+        <h1>Uzair Haideri</h1>
+        
+        <div class="contact-bar">
+            <div class="contact-item"><strong>📞 Phone:</strong> +92 3048143853</div>
+            <div class="contact-item"><strong>📧 Email:</strong> uzairsheikh266@gmail.com</div>
+            <div class="contact-item"><strong>📍 Address:</strong> Karachi, Pakistan</div>
+        </div>
+    </div>
+
+    <div class="section-box">
+        <h2 class="section-title">About Me </h2>
+        <p>
+            I am a motivated <strong>Computer Science student from Karachi</strong>, passionate about Web Development and Database Management. I seek to leverage my academic knowledge and foundational skills to gain practical experience, contribute to innovative projects, and grow as a skilled professional in the tech industry.
+        </p>
+    </div>
+
+    <h2 style="text-align: center; margin-top: 40px; color: #1e3c72;">My Projects</h2>
+    
+    <div class="project-grid">
+        <div class="project-item">
+            <h3>School Management System</h3>
+            <p>A comprehensive database design to manage student records, teacher information, and class schedules efficiently.</p>
+        </div>
+        <div class="project-item">
+            <h3>Inventory Management List</h3>
+            <p>Advanced SQL practice project focusing on stock tracking, price calculations, and inventory reporting.</p>
+        </div>
+        <div class="project-item">
+            <h3>Professional Profile Project</h3>
+            <p>A sleek, responsive personal portfolio website built with HTML and CSS.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Uzair Haideri. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
